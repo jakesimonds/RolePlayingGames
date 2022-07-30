@@ -11,9 +11,6 @@ public interface Fighter {
 
     void setDefense(int defense);
 
-    int getHealth();
-
-    void setHealth(int health);
 
     boolean getAlive();
 
