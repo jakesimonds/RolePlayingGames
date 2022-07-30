@@ -1,10 +1,21 @@
-public interface HandGear {
-    void setName(String adj, String noun);
-    String getName();
-    void setDefense(int defense);
-    int getDefense();
-    void setAttack(int attack);
-    int getAttack();
+public class HandGear extends GearImpl {
+    public HandGear(String name, String adj) {
+        super(name, adj);
+    }
 
-    //HandGearImpl combine(HandgearImpl other);
+    @Override
+    protected Gear combineInternal(String newName, String newAdj) {
+        return new HandGear(newName, newAdj);
+    }
+
+    //    @Override
+//    public Gear combine(Gear other) {
+//        return null;
+//    }
+
+    @Override
+    public String toString() {
+        return "HandGear";
+    }
 }
+

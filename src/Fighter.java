@@ -19,11 +19,11 @@ public interface Fighter {
 
     void setAlive(boolean isAlive);
 
-    void pickHeadGear(HeadGearImpl headgear);
-
-    void pickHandGear(HandGearImpl handgear);
-
-    void pickFootwear(FootwearImpl footwear);
+//    void pickHeadGear(HeadGearImpl headgear);
+//
+//    void pickHandGear(HandGearImpl handgear);
+//
+//    void pickFootwear(FootwearImpl footwear);
 
     void takeDamage(FighterImpl other);
 

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="item classes without combine method">
-      <change afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="fighter class with some of the setters and getters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658951610465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fighter class with some of the setters and getters">
+      <created>1658952514667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952514667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="committing! for practice" />
     <MESSAGE value="item classes without combine method" />
-    <option name="LAST_COMMIT_MESSAGE" value="item classes without combine method" />
+    <MESSAGE value="fighter class with some of the setters and getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="fighter class with some of the setters and getters" />
   </component>
 </project>

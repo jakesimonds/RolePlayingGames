@@ -4,9 +4,9 @@ public class FighterImpl implements Fighter{
     private int defense;
     private int health;
     private boolean IsAlive;
-    private HeadGearImpl Headgear;
-    private HandGearImpl Handgear;
-    private FootwearImpl Footwear;
+//    private HeadGearImpl Headgear;
+//    private HandGearImpl Handgear;
+//    private FootwearImpl Footwear;
     boolean hasHeadGear;
     boolean hasHandGear;
     boolean hasFootwear;
@@ -61,21 +61,20 @@ public class FighterImpl implements Fighter{
         this.IsAlive = isAlive;
     }
 
-    @Override
-    public void pickHeadGear(HeadGearImpl headgear) {
-
-
-    }
-
-    @Override
-    public void pickHandGear(HandGearImpl handgear) {
-
-    }
-
-    @Override
-    public void pickFootwear(FootwearImpl footwear) {
-
-    }
+//    @Override
+//    public void pickHeadGear(HeadGearImpl headgear) {
+//
+//    }
+//
+//    @Override
+//    public void pickHandGear(HandGearImpl handgear) {
+//
+//    }
+//
+//    @Override
+//    public void pickFootwear(FootwearImpl footwear) {
+//
+//    }
 
     @Override
     public void takeDamage(FighterImpl other) {
