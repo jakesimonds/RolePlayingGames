@@ -2,14 +2,16 @@ public class FighterImpl implements Fighter{
     private String name;
     private int attack;
     private int defense;
-    private int health;
+
     private boolean IsAlive;
-//    private HeadGearImpl Headgear;
-//    private HandGearImpl Handgear;
-//    private FootwearImpl Footwear;
-    boolean hasHeadGear;
-    boolean hasHandGear;
-    boolean hasFootwear;
+    private HeadGear Headgear;
+    private HandGear leftHandGear;
+    private HandGear rightHandGear;
+    private FootWear leftFootwear;
+    private FootWear rightFootwear;
+//    boolean hasHeadGear;
+//    boolean hasHandGear;
+//    boolean hasFootwear;
 
     @Override
     public String getName() {
@@ -41,15 +43,7 @@ public class FighterImpl implements Fighter{
     this.defense = defense;
     }
 
-    @Override
-    public int getHealth() {
-        return this.health;
-    }
 
-    @Override
-    public void setHealth(int health) {
-    this.health = health;
-    }
 
     @Override
     public boolean getAlive() {
