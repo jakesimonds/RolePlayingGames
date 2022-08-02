@@ -1,5 +1,6 @@
 public abstract class GearImpl implements Gear {
     public GearImpl(String name, String adj) {
+        //name same as noun
         this.name = name;
         this.adj = adj;
     }
@@ -21,11 +22,12 @@ public abstract class GearImpl implements Gear {
                                             String newAdj);
 
     @Override
-    public Gear combine(Gear other) {
-        String newName = this.name + other.getName();
-        String newAdj = this.adj + other.getAdj();
+    abstract public Gear combine(Gear other);
 
-        return combineInternal(newName, newAdj);
+//        String newName = this.name + other.getName();
+//        String newAdj = this.adj + other.getAdj();
+//
+//        return combineInternal(newName, newAdj);
 
 //        if (other instanceof HandGear) {
 //            return new HandGear(newName, newAdj);
@@ -34,7 +36,7 @@ public abstract class GearImpl implements Gear {
 //        } else {
 //            return new GearImpl(newName, newAdj);
 //        }
-    }
+//    }
 
     public static void main(String[] args) {
         Gear hg1 = new HandGear("handgear", "1");
