@@ -1,10 +1,31 @@
 public class HeadGear extends GearImpl{
-    public HeadGear(String name, String adj) {
-        super(name, adj);
+    public HeadGear(String name, String adj,int defence) {
+        super(name, adj,defence);
+
     }
 
     @Override
-    protected Gear combineInternal(String newName, String newAdj) {
-        return null;
+    public boolean equals(Object obj) {
+        if(!(obj instanceof HeadGear)){
+            return false;
+        }
+        HeadGear other = (HeadGear) obj;
+        return this.getName()== other.getName() && this.getAdj()== other.getAdj();
+
+    }
+
+    @Override
+    public String toString() {
+
+        return "Name: "+this.getAdj()+" "+this.getName()+"  Defence: "+this.getDefence();
+    }
+
+    @Override
+    public HeadGear combine(Gear other) {
+        if(!(other instanceof HeadGear)){
+            throw new IllegalStateException("We combine headGear with a headGear only!");
+        }
+        HeadGear that = (HeadGear) other;
+        return new HeadGear(that.getName(),this.getAdj()+", "+that.getAdj(),this.getDefence()+ that.getDefence());
     }
 }

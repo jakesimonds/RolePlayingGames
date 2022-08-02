@@ -1,21 +1,52 @@
 public class HandGear extends GearImpl {
-    public HandGear(String name, String adj) {
-        super(name, adj);
+    int attack;
+    public HandGear(String name, String adj,int attack,int defence) {
+        super(name, adj,defence);
+        this.attack=attack;
+
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public int getAttack() {
+        return attack;
     }
 
     @Override
-    protected Gear combineInternal(String newName, String newAdj) {
-        return new HandGear(newName, newAdj);
+    public HandGear combine(Gear other) {
+        if(!(other instanceof HandGear)){
+            throw new IllegalStateException("We combine handGear with a handGear only!");
+        }
+        HandGear that = (HandGear) other;
+        return new HandGear(that.getName(),this.getAdj()+", "+that.getAdj(),this.getAttack()+that.getAttack(),this.getDefence()+ that.getDefence());
     }
 
-    //    @Override
-//    public Gear combine(Gear other) {
-//        return null;
-//    }
+    @Override
+    public boolean equals(Object obj) {
+        if(!(obj instanceof HandGear)){
+            return false;
+        }
+        HandGear other = (HandGear) obj;
+        return this.getName()== other.getName() && this.getAdj()== other.getAdj();
+
+    }
 
     @Override
     public String toString() {
-        return "HandGear";
+        return "Name: "+this.getAdj()+" "+this.getName()+"  Attack: "+this.getAttack()+" Defence: "+this.getDefence();
     }
 }
 
+
+
+//    @Override
+//    protected Gear combineInternal(String newName, String newAdj) {
+//        return new HandGear(newName, newAdj);
+//    }
+
+//    @Override
+//    public Gear combine(Gear other) {
+//        return null;
+//    }
