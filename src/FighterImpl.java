@@ -3,15 +3,40 @@ public class FighterImpl implements Fighter{
     private int attack;
     private int defense;
 
-    private boolean IsAlive;
-    private HeadGear Headgear;
+    private HeadGear headGear;
+
+    public HeadGear getHeadGear() {
+        return headGear;
+    }
+
+    public HandGear getLeftHandGear() {
+        return leftHandGear;
+    }
+
+    public HandGear getRightHandGear() {
+        return rightHandGear;
+    }
+
+    public FootWear getLeftFootwear() {
+        return leftFootwear;
+    }
+
+    public FootWear getRightFootwear() {
+        return rightFootwear;
+    }
+
     private HandGear leftHandGear;
     private HandGear rightHandGear;
     private FootWear leftFootwear;
     private FootWear rightFootwear;
-//    boolean hasHeadGear;
-//    boolean hasHandGear;
-//    boolean hasFootwear;
+
+    public FighterImpl(String name, int attack, int defense){
+        this.name=name;
+        this.attack=attack;
+        this.defense=defense;
+    }
+
+
 
     @Override
     public String getName() {
@@ -43,19 +68,61 @@ public class FighterImpl implements Fighter{
     this.defense = defense;
     }
 
+    @Override
+    public void pickGear(Gear gear) {
+        if(gear instanceof HeadGear){
+            this.defense+=((HeadGear) gear).getDefence();
+            if(this.headGear==null){
+                this.headGear = (HeadGear) gear;
+            }else{
+                HeadGear newItem = this.headGear.combine((HeadGear) gear);
+                this.headGear = newItem;
+            }
+        } else if (gear instanceof HandGear) {
+            this.attack+=((HandGear) gear).getAttack();
+            this.defense+=((HandGear) gear).getDefence();
+            if(this.leftHandGear==null){
+                this.leftHandGear=(HandGear) gear;
+            } else if (this.rightHandGear==null) {
+                this.rightHandGear=(HandGear) gear;
+            }else{
+                HandGear newItem = this.leftHandGear.combine((HandGear) gear);
+                this.leftHandGear=newItem;
+            }
+        } else if (gear instanceof FootWear) {
+                this.attack+=((FootWear) gear).getAttack();
+                this.defense+=((FootWear) gear).getDefence();
+                if(this.leftFootwear==null){
+                    this.leftFootwear=(FootWear) gear;
+                } else if (this.rightFootwear==null) {
+                    this.rightFootwear=(FootWear) gear;
+                }else{
+                    FootWear newItem = this.leftFootwear.combine((FootWear) gear);
+                    this.leftFootwear=newItem;
+                }
+        }
+    }
+
 
 
     @Override
-    public boolean getAlive() {
-        return this.IsAlive;
+    //Return 1 when this character wins, 0 when ties, -1 when loses.
+    public int fight(Fighter other) {
+        if(this.attack-other.getDefense()> other.getAttack()-this.defense){
+            return 1;
+        } else if (this.attack-other.getDefense()== other.getAttack()-this.defense) {
+            return 0;
+        }else{
+            return -1;
+        }
     }
 
     @Override
-    public void setAlive(boolean isAlive) {
-        this.IsAlive = isAlive;
+    public String toString() {
+        return "Name: " + this.name+"     Attack: "+this.attack+" Defense: "+this.defense;
     }
 
-//    @Override
+    //    @Override
 //    public void pickHeadGear(HeadGearImpl headgear) {
 //
 //    }
@@ -70,11 +137,5 @@ public class FighterImpl implements Fighter{
 //
 //    }
 
-    @Override
-    public void takeDamage(FighterImpl other) {
-    }
 
-    //To string
-
-    //Equals
 }

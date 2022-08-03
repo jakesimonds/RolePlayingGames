@@ -1,22 +1,49 @@
  public class FootWear extends GearImpl {
-        public FootWear(String name, String adj) {
-            super(name, adj);
+    int attack;
+        public FootWear(String name, String adj,int attack,int defence) {
+            super(name, adj,defence);
+            this.attack=attack;
         }
 
+     public int getAttack() {
+         return attack;
+     }
+
+     public void setAttack(int attack) {
+         this.attack = attack;
+     }
+
+
+@Override
+public FootWear combine(Gear other) {
+    if(!(other instanceof FootWear)){
+        throw new IllegalStateException("We combine footWear with a footWear only!");
+    }
+    FootWear that = (FootWear) other;
+    return new FootWear(that.getName(),this.getAdj()+", "+that.getAdj(),this.getAttack()+that.getAttack(),this.getDefence()+ that.getDefence());
+}
+
+     @Override
+     public boolean equals(Object obj) {
+         if(!(obj instanceof FootWear)){
+             return false;
+         }
+         FootWear other = (FootWear) obj;
+         return this.getName()== other.getName() && this.getAdj()== other.getAdj();
+     }
+
         @Override
-        protected Gear combineInternal(String newName, String newAdj) {
-            return new FootWear(newName, newAdj);
+        public String toString() {
+            return "Name: "+this.getAdj()+" "+this.getName()+"  Attack: "+this.getAttack()+" Defence: "+this.getDefence();
         }
+    }
+
 
 //    @Override
 //    public Gear combine(Gear other) {
 //        return null;
 //    }
-
-        @Override
-        public String toString() {
-            return "FootWear";
-        }
-    }
-
-
+//        @Override
+//        protected Gear combineInternal(String newName, String newAdj) {
+//            return new FootWear(newName, newAdj);
+//        }

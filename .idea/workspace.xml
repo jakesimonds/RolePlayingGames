@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="committing so I can pull">
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Delete health and relative methods, Added headGear">
+      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TypeOfGear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadGear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -36,12 +43,26 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/heathli/CS5004/RolePlayingGames&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="RolePlayingGames" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,35 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658253727085</updated>
     </task>
-    <task id="LOCAL-00001" summary="committing! for practice">
-      <created>1658255637015</created>
+    <task id="LOCAL-00001" summary="Delete health and relative methods, Added headGear">
+      <created>1659211080324</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1658255637015</updated>
+      <updated>1659211080324</updated>
     </task>
-    <task id="LOCAL-00002" summary="item classes without combine method">
-      <created>1658951610465</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658951610465</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fighter class with some of the setters and getters">
-      <created>1658952514667</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658952514667</updated>
-    </task>
-    <task id="LOCAL-00004" summary="committing so I can pull">
-      <created>1659444146029</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659444146029</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,17 +87,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="committing! for practice" />
-    <MESSAGE value="item classes without combine method" />
-    <MESSAGE value="fighter class with some of the setters and getters" />
-    <MESSAGE value="committing so I can pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing so I can pull" />
+    <MESSAGE value="Delete health and relative methods, Added headGear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete health and relative methods, Added headGear" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Driver.java</url>
+          <line>5</line>
+          <properties field="gears" class="Driver" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

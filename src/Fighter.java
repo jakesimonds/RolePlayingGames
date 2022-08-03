@@ -11,17 +11,24 @@ public interface Fighter {
 
     void setDefense(int defense);
 
+    void pickGear(Gear gear);
 
-    boolean getAlive();
+    int fight(Fighter other);
 
-    void setAlive(boolean isAlive);
+    public HeadGear getHeadGear();
 
+    public HandGear getLeftHandGear();
+
+    public HandGear getRightHandGear();
+
+    public FootWear getLeftFootwear() ;
+
+    public FootWear getRightFootwear() ;
 //    void pickHeadGear(HeadGearImpl headgear);
 //
 //    void pickHandGear(HandGearImpl handgear);
 //
 //    void pickFootwear(FootwearImpl footwear);
 
-    void takeDamage(FighterImpl other);
 
 }
