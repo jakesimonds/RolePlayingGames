@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="committing so I can pull">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeadGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadGear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658952514667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="committing so I can pull">
+      <created>1659444146029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659444146029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +97,7 @@
     <MESSAGE value="committing! for practice" />
     <MESSAGE value="item classes without combine method" />
     <MESSAGE value="fighter class with some of the setters and getters" />
-    <option name="LAST_COMMIT_MESSAGE" value="fighter class with some of the setters and getters" />
+    <MESSAGE value="committing so I can pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing so I can pull" />
   </component>
 </project>
