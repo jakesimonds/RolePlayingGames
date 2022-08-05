@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="committing so I can pull" />
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Need complete pick methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,12 +70,12 @@
       <option name="project" value="LOCAL" />
       <updated>1659211080324</updated>
     </task>
-    <task id="LOCAL-00002" summary="committing so I can pull">
-      <created>1659722844422</created>
+    <task id="LOCAL-00002" summary="Need complete pick methods">
+      <created>1659474465824</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1659722844422</updated>
+      <updated>1659474465824</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -105,8 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete health and relative methods, Added headGear" />
-    <MESSAGE value="committing so I can pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing so I can pull" />
+    <MESSAGE value="Need complete pick methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
