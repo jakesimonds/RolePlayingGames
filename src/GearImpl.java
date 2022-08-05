@@ -1,4 +1,5 @@
 //GearImpl
+//some changes
 public abstract class GearImpl implements Gear {
     public GearImpl(String name, String adj,int defence) {
         this.name = name;
