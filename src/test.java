@@ -7,7 +7,7 @@ public class test {
         HandGear testHandGear2 = new HandGear("Glove", "Worst", 5, 1);
         HandGear testHandGear3 = new HandGear("Glove", "Best", 10, 1);
         HandGear testHandGear4 = new HandGear("Glove", "worstWorst", 1, 1);
-        HeadGear testHeadGear1 = new HeadGear("Helmet", "Worst", 1);
+        HeadGear testHeadGear1 = new HeadGear("Footwear", "some", 1);
         HeadGear testHeadGear2 = new HeadGear("Helmet", "Best", 10);
         FootWear testFootWear1 = new FootWear("Boots", "Worst", 1, 1);
         FootWear testFootWear2 = new FootWear("Boots", "Best", 3, 2);
@@ -28,76 +28,125 @@ public class test {
         gears.add(testHandGear4);
         FighterImpl testFighter = new FighterImpl("Joe",10,10);
         FighterImpl testFighter2 = new FighterImpl("Jane",100,10);
-        Driver driver = new Driver(testFighter,testFighter2,gears);
-        int result = driver.start();
-        System.out.println("Should print -1,and result is "+String.valueOf(result));
-
-
-//
-//        System.out.println("Before take turn");
-//        System.out.println("==========================================");
 //        Driver driver = new Driver(testFighter,testFighter2,gears);
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 1");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 2");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 3");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 4");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 5");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 6");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
-//        driver.takeTurn(testFighter);
-//        System.out.println("==========================================");
-//        System.out.println("==========================================");
-//        System.out.println("Turn 7");
-//        for(Gear gear: driver.gears){
-//            System.out.println(gear);
-//        }
-//        System.out.println(testFighter.toString());
+//        int result = driver.start();
+//        System.out.println("Should print -1,and result is "+String.valueOf(result))
 
+
+
+        System.out.println("Before take turn");
+        System.out.println("==========================================");
+        Driver driver = new Driver(testFighter,testFighter2,gears);
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 1");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 2");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 3");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 4");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 5");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 6");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 7");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 8");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 9");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+        driver.takeTurn(testFighter);
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("Turn 10");
+        for(Gear gear: driver.gears){
+            System.out.println(gear);
+        }
+        System.out.println(testFighter.toString());
+
+
+//        System.out.println("What's left");
+//        System.out.println(driver.handGears.get(0));
+//        testFighter.pickGear(gears.get(0));
+//        driver.handGears.remove(0);
+//        System.out.println("What's left");
+//        System.out.println(driver.handGears.size());
+
+
+
+        //driver.takeTurn(testFighter);
+//        System.out.println("==========================================");
+//        System.out.println("==========================================");
+
+
+
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("The fighter now equipped: ");
+        System.out.println(testFighter.getLeftHandGear());
+        System.out.println(testFighter.getRightHandGear());
+        System.out.println(testFighter.getLeftFootwear());
+        System.out.println(testFighter.getRightFootwear());
+        System.out.println(testFighter.getHeadGear());
+        System.out.println(testFighter);
 
 
 
