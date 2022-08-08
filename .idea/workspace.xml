@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="tests begun">
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Need complete pick methods">
+      <change afterPath="$PROJECT_DIR$/src/FootWearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HandGearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeadGearComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +42,6 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/heathli/CS5004/RolePlayingGames&quot;,
@@ -46,7 +50,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GearTest">
+  <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="RolePlayingGames" />
@@ -54,28 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RolePlayingGames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RolePlayingGames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GearTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GearTest" />
-        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -103,12 +87,12 @@
       <option name="project" value="LOCAL" />
       <updated>1659474465824</updated>
     </task>
-    <task id="LOCAL-00003" summary="tests begun">
-      <created>1659972127128</created>
+    <task id="LOCAL-00003" summary="Need complete pick methods&#10;Some changes for checking push">
+      <created>1659723182163</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1659972127128</updated>
+      <updated>1659723182163</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -138,9 +122,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete health and relative methods, Added headGear" />
+    <MESSAGE value="Need complete pick methods&#10;Some changes for checking push" />
     <MESSAGE value="Need complete pick methods" />
-    <MESSAGE value="tests begun" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests begun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,7 +132,7 @@
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Driver.java</url>
           <line>6</line>
-          <properties field="footWears" class="Driver" />
+          <properties field="gears" class="Driver" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
