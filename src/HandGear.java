@@ -10,6 +10,11 @@ public class HandGear extends GearImpl {
         this.attack = attack;
     }
 
+    @Override
+    public int getDefense() {
+        return this.defence;
+    }
+    @Override
     public int getAttack() {
         return attack;
     }

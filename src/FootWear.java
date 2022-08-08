@@ -1,10 +1,15 @@
  public class FootWear extends GearImpl {
-    int attack;
+
         public FootWear(String name, String adj,int attack,int defence) {
             super(name, adj,defence);
             this.attack=attack;
         }
 
+     @Override
+     public int getDefense() {
+         return 0;
+     }
+    @Override
      public int getAttack() {
          return attack;
      }

@@ -12,11 +12,13 @@ public abstract class GearImpl implements Gear {
         } else if (this instanceof FootWear) {
             this.typeOfGear = TypeOfGear.FootWear;
         }
+        this.attack=0;
     }
 
     private String name;
     private String adj;
-    private int defence;
+    protected int defence;
+    protected int attack;
     private TypeOfGear typeOfGear;
 
     @Override
@@ -40,11 +42,15 @@ public abstract class GearImpl implements Gear {
     public void setDefence(int defence) {
         this.defence = defence;
     }
-
+    @Override
     public int getDefence() {
         return defence;
     }
 
+    @Override
+    public int getAttack(){
+        return attack;
+    }
 
     @Override
     public String

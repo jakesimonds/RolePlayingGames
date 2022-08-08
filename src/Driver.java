@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Driver {
     Fighter fighter1;
@@ -21,7 +22,10 @@ public class Driver {
                 footWears.add((FootWear) gear);
             }
         }
-
+        Collections.sort(gears,new GearComparator());
+        Collections.sort(footWears,new FootWearComparator());
+        Collections.sort(handGears,new HandGearComparator());
+        Collections.sort(headGears,new HeadGearComparator());
     }
 
     public void start() {
@@ -34,12 +38,18 @@ public class Driver {
     public void takeTurn(Fighter fighter) {
 
         if (fighter.getLeftFootwear() == null) {
-            for(Gear gear:this.gears){
-                if(gear.getTypeOfGear()==TypeOfGear.FootWear);
+            if(this.footWears!=null){
+                fighter.pickGear(footWears.get(0));
+                footWears.remove(0);
+                gears.remove(footWears.get(0));
             }
 
         } else if (fighter.getRightFootwear()==null) {
-
+            if(this.footWears!=null){
+                fighter.pickGear(footWears.get(0));
+                footWears.remove(0);
+                gears.remove(footWears.get(0));
+            }
         } else if (fighter.getLeftHandGear()==null) {
 
         } else if (fighter.getRightHandGear()==null) {
@@ -48,6 +58,7 @@ public class Driver {
 
         }
     }
+
 }
 
 
