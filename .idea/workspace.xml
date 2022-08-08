@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="tests begun">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/GearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GearTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="basic tests started" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659972127128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="basic tests started">
+      <created>1659978384861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659978384861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +145,8 @@
     <MESSAGE value="Delete health and relative methods, Added headGear" />
     <MESSAGE value="Need complete pick methods" />
     <MESSAGE value="tests begun" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests begun" />
+    <MESSAGE value="basic tests started" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic tests started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
