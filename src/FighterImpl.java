@@ -31,6 +31,7 @@ public class FighterImpl implements Fighter{
     private FootWear rightFootwear;
 
     public FighterImpl(String name, int attack, int defense){
+        if (attack < 0 || defense < 0){throw new IllegalArgumentException("Attack & Defense values must be >0");}
         this.name=name;
         this.attack=attack;
         this.defense=defense;
