@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="committing so I can pull......">
-      <change afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/GearTest.java" afterDir="false" />
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="tests begun">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RolePlayingGames.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RolePlayingGames.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FighterTest">
+  <component name="RunManager" selected="JUnit.GearTest">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="RolePlayingGames" />
@@ -68,8 +70,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RolePlayingGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GearTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GearTest" />
         <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.test" />
       </list>
@@ -98,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659474465824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests begun">
+      <created>1659972127128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659972127128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete health and relative methods, Added headGear" />
     <MESSAGE value="Need complete pick methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods" />
+    <MESSAGE value="tests begun" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests begun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

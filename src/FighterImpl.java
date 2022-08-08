@@ -56,6 +56,7 @@ public class FighterImpl implements Fighter{
 
     @Override
     public void setAttack(int attack) {
+        if (attack < 0){throw new IllegalArgumentException("Attack must be >0");}
     this.attack = attack;
     }
 
@@ -66,6 +67,7 @@ public class FighterImpl implements Fighter{
 
     @Override
     public void setDefense(int defense) {
+        if (defense <0){throw new IllegalArgumentException("Defense must be >0");}
     this.defense = defense;
     }
 

@@ -5,6 +5,7 @@ public abstract class GearImpl implements Gear {
         this.name = name;
         this.adj = adj;
         this.defence=defence;
+        if (defence<0){throw new IllegalArgumentException("defence must be >0");}
         if(this instanceof HandGear){
             this.typeOfGear = TypeOfGear.HandGear;
         } else if (this instanceof HeadGear) {

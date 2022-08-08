@@ -50,7 +50,14 @@ public class FighterTest {
         assertEquals(5,testFighter.getAttack());
         testFighter.setAttack(33);
         assertEquals(33,testFighter.getAttack());
+    }
 
+    //=================================== Testing setAttack =======================================
+    //testing for expected errors with negative attack
+    @Test(expected = IllegalArgumentException.class)
+    public void TestSetAttack(){
+        FighterImpl testFighter = new FighterImpl("Joe",1,2);
+        testFighter.setAttack(-3);
 
     }
 
@@ -63,6 +70,14 @@ public class FighterTest {
         assertEquals(33,testFighter.getDefense());
 
 
+    }
+
+    //=================================== Testing setDefense =======================================
+    //testing for expected errors with negative defense
+    @Test(expected = IllegalArgumentException.class)
+    public void TestSetDefense(){
+        FighterImpl testFighter = new FighterImpl("Joe",1,2);
+        testFighter.setDefense(-3);
     }
 
     //=================================== Testing Fighter pickGear =======================================

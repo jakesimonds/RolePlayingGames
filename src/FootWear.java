@@ -3,6 +3,7 @@
         public FootWear(String name, String adj,int attack,int defence) {
             super(name, adj,defence);
             this.attack=attack;
+            if (attack<0){throw new IllegalArgumentException("attack must be >0");}
         }
 
      public int getAttack() {
