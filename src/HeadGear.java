@@ -21,6 +21,15 @@ public class HeadGear extends GearImpl{
     }
 
     @Override
+    public int getDefense() {
+        return this.defence;
+    }
+    @Override
+    public int getAttack(){
+        return 0;
+    }
+
+    @Override
     public HeadGear combine(Gear other) {
         if(!(other instanceof HeadGear)){
             throw new IllegalStateException("We combine headGear with a headGear only!");
