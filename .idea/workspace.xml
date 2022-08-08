@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Need complete pick methods">
-      <change afterPath="$PROJECT_DIR$/src/FootWearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HandGearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HeadGearComparator.java" afterDir="false" />
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Need complete pick methods.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeadGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadGear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659723182163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Need complete pick methods">
+      <created>1659982062796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659982062796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Need complete pick methods.">
+      <created>1659982170869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659982170869</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,18 +128,7 @@
     <MESSAGE value="Delete health and relative methods, Added headGear" />
     <MESSAGE value="Need complete pick methods&#10;Some changes for checking push" />
     <MESSAGE value="Need complete pick methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/Driver.java</url>
-          <line>6</line>
-          <properties field="gears" class="Driver" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Need complete pick methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods." />
   </component>
 </project>
