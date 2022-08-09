@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Need complete pick methods.">
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="More tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FighterTest">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="RolePlayingGames" />
@@ -48,8 +52,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RolePlayingGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -129,6 +143,7 @@
     <MESSAGE value="Need complete pick methods&#10;Some changes for checking push" />
     <MESSAGE value="Need complete pick methods" />
     <MESSAGE value="Need complete pick methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need complete pick methods." />
+    <MESSAGE value="More tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="More tests" />
   </component>
 </project>

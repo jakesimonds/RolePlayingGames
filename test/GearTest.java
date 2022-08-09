@@ -140,14 +140,14 @@ public class GearTest {
         Gear headgear2 = new HeadGear("Helmet","Old",10);
 
         HandGear handGear1 = new HandGear("Shield","Red",2,8);
-        HandGear handGear2 = new HandGear("Glove","Pink",4,6);
-        HandGear handGear3 = new HandGear("Ring","Yellow",7,5);
-        HandGear handGear4 = new HandGear("Fingerless Glove","Blue",3,3);
-
-        FootWear footwear1 = new FootWear("Shoe","Blue",4,4);
-        FootWear footwear2 = new FootWear("Sandal","Purple",1,6);
-        FootWear footwear3 = new FootWear("Flip Flop","Black",3,5);
-        FootWear footwear4 = new FootWear("Roller Skate","Green",7,3);
+//        HandGear handGear2 = new HandGear("Glove","Pink",4,6);
+//        HandGear handGear3 = new HandGear("Ring","Yellow",7,5);
+//        HandGear handGear4 = new HandGear("Fingerless Glove","Blue",3,3);
+//
+//        FootWear footwear1 = new FootWear("Shoe","Blue",4,4);
+//        FootWear footwear2 = new FootWear("Sandal","Purple",1,6);
+//        FootWear footwear3 = new FootWear("Flip Flop","Black",3,5);
+//        FootWear footwear4 = new FootWear("Roller Skate","Green",7,3);
         //***************************************************************************************SHOULD BE ERROR MAYBE?
         handGear1.combine(handGear1);
     }
