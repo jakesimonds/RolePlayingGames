@@ -3,9 +3,9 @@ import java.util.Collections;
 
 public class test {
     public static void main(String[] args) {
-        HandGear testHandGear1 = new HandGear("Glove", "Middle", 5, 2);
-        HandGear testHandGear2 = new HandGear("Glove", "Worst", 5, 1);
-        HandGear testHandGear3 = new HandGear("Glove", "Best", 10, 1);
+        HandGear testHandGear1 = new HandGear("Glove", "Middle", 4, 2);
+        HandGear testHandGear2 = new HandGear("Glovee", "Worst", 5, 2);
+        HandGear testHandGear3 = new HandGear("Gloveee", "Best", 10, 2);
         HeadGear testHeadGear1 = new HeadGear("Helmet", "Worst", 1);
         HeadGear testHeadGear2 = new HeadGear("Helmet", "Best", 10);
         HeadGear testHeadGear3 = new HeadGear("Helmet", "Middle", 5);
@@ -67,5 +67,13 @@ public class test {
         for (Gear gear : gears) {
             System.out.println(gear);
         }
+
+
+        HandGear CombineTest = testHandGear1.combine(testHandGear2);
+        HandGear CombineTest1 = testHandGear2.combine(testHandGear3);
+
+        System.out.println(CombineTest.toString());
+        System.out.println(CombineTest1.toString());
+        System.out.println(CombineTest.combine(CombineTest1).toString());
     }
 }
