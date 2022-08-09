@@ -37,7 +37,7 @@ public class test {
         System.out.println("Before take turn");
         System.out.println("==========================================");
         Driver driver = new Driver(testFighter,testFighter2,gears);
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -45,7 +45,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 1");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -53,7 +53,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 2");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -61,7 +61,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 3");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -69,7 +69,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 4");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -77,7 +77,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 5");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -85,7 +85,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 6");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -93,7 +93,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 7");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -101,7 +101,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 8");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -109,7 +109,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 9");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -117,7 +117,7 @@ public class test {
         System.out.println("==========================================");
         System.out.println("==========================================");
         System.out.println("Turn 10");
-        for(Gear gear: driver.gears){
+        for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
         System.out.println(testFighter.toString());
@@ -148,8 +148,13 @@ public class test {
         System.out.println(testFighter.getHeadGear());
         System.out.println(testFighter);
 
-
-
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        System.out.println("==========================================");
+        if(testFighter==testFighter){
+            System.out.println("The same one");
+        }
 
 //        //Test HandGear sort
 //        System.out.println("Test HandGear sort");
@@ -204,5 +209,6 @@ public class test {
 //            System.out.println(gear);
 //        }
 //    }
+
     }
 }

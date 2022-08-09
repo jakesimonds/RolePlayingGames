@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="More tests">
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Completed, need test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/GearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GearTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FighterTest">
+  <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="RolePlayingGames" />
@@ -52,18 +49,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RolePlayingGames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -112,7 +99,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659982170869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed, need test">
+      <created>1659986691693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659986691693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Completed, need test">
+      <created>1659986761806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659986761806</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Completed, need test">
+      <created>1659988643747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659988643747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +151,22 @@
     <MESSAGE value="Need complete pick methods&#10;Some changes for checking push" />
     <MESSAGE value="Need complete pick methods" />
     <MESSAGE value="Need complete pick methods." />
-    <MESSAGE value="More tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="More tests" />
+    <MESSAGE value="Completed, need test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed, need test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test.java</url>
+          <line>4</line>
+          <properties class="test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
