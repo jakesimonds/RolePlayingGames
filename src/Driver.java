@@ -5,10 +5,11 @@ import java.util.Collections;
 public class Driver {
     private Fighter fighter1;
     private Fighter fighter2;
-    private ArrayList<Gear> gears;
-    private ArrayList<FootWear> footWears;
-    private ArrayList<HandGear> handGears;
-    private ArrayList<HeadGear> headGears;
+    protected ArrayList<Gear> gears;
+    //remember to make it private
+    private ArrayList<FootWear> footWears=new ArrayList<>();
+    protected ArrayList<HandGear> handGears=new ArrayList<>();//remember to set it private
+    private ArrayList<HeadGear> headGears=new ArrayList<>();
 
     public Driver(Fighter fighter1, Fighter fighter2, ArrayList<Gear> gears) {
         this.fighter1 = fighter1;
@@ -60,7 +61,7 @@ public class Driver {
             }
         }else if(fighter.getRightFootwear() == null && fighter.getRightHandGear() != null && fighter.getHeadGear() == null) {
             //fighter needs foot or head
-            int flag = equip(fighter, new TypeOfGear[]{TypeOfGear.FootWear, TypeOfGear.HandGear});
+            int flag = equip(fighter, new TypeOfGear[]{TypeOfGear.FootWear, TypeOfGear.HeadGear});
             if (flag == 0) {
                 pickFirstItem(fighter);
                 return;
@@ -104,7 +105,7 @@ public class Driver {
 
         public void pickFirstItem(Fighter fighter){
             fighter.pickGear(gears.get(0));
-            gears.remove(0);
+
             if(gears.get(0).getTypeOfGear()==TypeOfGear.FootWear){
                 footWears.remove(0);
             }else if(gears.get(0).getTypeOfGear()==TypeOfGear.HandGear){
@@ -112,6 +113,7 @@ public class Driver {
             }else{
                 headGears.remove(0);
             }
+            gears.remove(0);
             return;
         }
         public int equip(Fighter fighter,TypeOfGear[] types) {
