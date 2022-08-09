@@ -111,6 +111,9 @@ public class FighterImpl implements Fighter{
     @Override
     //Return 1 when this character wins, 0 when ties, -1 when loses.
     public int fight(Fighter other) {
+        if(other==this){
+            throw new IllegalArgumentException("The fighter cannot fight with themselves");
+        }
         if(this.attack-other.getDefense()> other.getAttack()-this.defense){
             return 1;
         } else if (this.attack-other.getDefense()== other.getAttack()-this.defense) {

@@ -5,13 +5,29 @@ import java.util.Collections;
 public class Driver {
     private Fighter fighter1;
     private Fighter fighter2;
-    protected ArrayList<Gear> gears;
+    private ArrayList<Gear> gears;
     //remember to make it private
     private ArrayList<FootWear> footWears=new ArrayList<>();
-    protected ArrayList<HandGear> handGears=new ArrayList<>();//remember to set it private
+    private ArrayList<HandGear> handGears=new ArrayList<>();
     private ArrayList<HeadGear> headGears=new ArrayList<>();
 
     public Driver(Fighter fighter1, Fighter fighter2, ArrayList<Gear> gears) {
+        if(gears==null){
+            throw new IllegalArgumentException("There are not gears");
+        }
+        if(gears.size()!=10){
+            throw new IllegalArgumentException("There should be 10 gears");
+        }
+        if(fighter1 ==null || fighter2 ==null){
+            throw new IllegalArgumentException("There should be 2 fighters!");
+        }
+        for(int i=0;i< gears.size();i++){
+            for(int j= gears.size()-1; j > i;j--){
+                if(gears.get(i)==gears.get(j)){
+                    throw new IllegalArgumentException("There cannot be two same items in gears");
+                }
+            }
+        }
         this.fighter1 = fighter1;
         this.fighter2 = fighter2;
         this.gears = gears;
@@ -38,6 +54,30 @@ public class Driver {
         return fighter1.fight(fighter2);
     }
 
+
+    public Fighter getFighter1() {
+        return fighter1;
+    }
+
+    public Fighter getFighter2() {
+        return fighter2;
+    }
+
+    public ArrayList<Gear> getGears() {
+        return gears;
+    }
+
+    public ArrayList<FootWear> getFootWears() {
+        return footWears;
+    }
+
+    public ArrayList<HandGear> getHandGears() {
+        return handGears;
+    }
+
+    public ArrayList<HeadGear> getHeadGears() {
+        return headGears;
+    }
 
     //Helper function
     public void takeTurn(Fighter fighter) {
