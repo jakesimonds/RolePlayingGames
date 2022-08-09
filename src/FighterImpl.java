@@ -116,7 +116,7 @@ public class FighterImpl implements Fighter{
         }
         if(this.attack-other.getDefense()> other.getAttack()-this.defense){
             return 1;
-        } else if (this.attack-other.getDefense()== other.getAttack()-this.defense) {
+        } else if (this.attack-other.getDefense() == other.getAttack()-this.defense) {
             return 0;
         }else{
             return -1;
