@@ -49,15 +49,17 @@ public class Driver {
     public int start() {
         for(int i =1;i<=5;i++){
             takeTurn(this.fighter1);
-            System.out.println("Turn #"+ (i*2 -1) );
-            System.out.println(fighter1.toString());
-            System.out.println(fighter1.getName()+" is wearing...");
+            System.out.println("\n\nTurn #"+ (i*2 -1) );
+            System.out.println(fighter1.getName() + " has " + fighter1.getAttack() + " attack points and " + fighter1.getDefense() + " defense strength.");
+            printFighterGear(fighter1);
+            //System.out.println(fighter1.getName()+" is wearing...");
             takeTurn(this.fighter2);
-            System.out.println("Turn #"+ (i*2) );
+            System.out.println("\n\nTurn #"+ (i*2) );
             System.out.println(fighter2.toString());
-            System.out.println(fighter2.getName()+" is wearing...");
+            printFighterGear(fighter2);
+            //System.out.println(fighter2.getName()+" is wearing...");
         }
-
+        System.out.println("\n\n\n");
         return fighter1.fight(fighter2);
     }
 
@@ -85,6 +87,15 @@ public class Driver {
     public ArrayList<HeadGear> getHeadGears() {
         return headGears;
     }
+    private void printFighterGear(Fighter fighter){
+        System.out.println("Headgear: " + fighter.getHeadGear());
+        System.out.println("Left HandGear: " + fighter.getLeftHandGear());
+        System.out.println("Right HandGear: " + fighter.getRightHandGear());
+        System.out.println("Left Footwear: " + fighter.getLeftFootwear());
+        System.out.println("Right Footwear: " + fighter.getRightFootwear());
+
+    }
+
 
     //Helper function
     public void takeTurn(Fighter fighter) {

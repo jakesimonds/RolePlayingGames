@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Added print statements (we missed small detail in project description)">
+      <change afterPath="$PROJECT_DIR$/test/ExampleGameRun2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ExampleGameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExampleGameRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExampleGameRun">
+  <component name="RunManager" selected="Application.ExampleGameRun2">
     <configuration name="ExampleGameRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExampleGameRun" />
       <module name="RolePlayingGames" />
@@ -50,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="ExampleGameRun2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExampleGameRun2" />
       <module name="RolePlayingGames" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExampleGameRun" />
-        <item itemvalue="JUnit.DriverTest" />
+        <item itemvalue="Application.ExampleGameRun2" />
         <item itemvalue="JUnit.GearTest" />
+        <item itemvalue="JUnit.DriverTest" />
         <item itemvalue="JUnit.FighterTest" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.ExampleGameRun" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660104296724</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added print statements (we missed small detail in project description)">
+      <created>1660104677202</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660104677202</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
