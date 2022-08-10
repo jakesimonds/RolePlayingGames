@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class test {
     public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class test {
 
         System.out.println("Before take turn");
         System.out.println("==========================================");
-        Driver driver = new Driver(testFighter,testFighter2,gears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,gears);
         for(Gear gear: driver.getGears()){
             System.out.println(gear);
         }
