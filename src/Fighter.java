@@ -24,11 +24,4 @@ public interface Fighter {
     public FootWear getLeftFootwear() ;
 
     public FootWear getRightFootwear() ;
-//    void pickHeadGear(HeadGearImpl headgear);
-//
-//    void pickHandGear(HandGearImpl handgear);
-//
-//    void pickFootwear(FootwearImpl footwear);
-
-
 }

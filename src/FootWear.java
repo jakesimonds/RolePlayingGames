@@ -7,8 +7,8 @@
         }
 
      @Override
-     public int getDefense() {
-         return 0;
+     public int getDefence() {
+         return defence;
      }
     @Override
      public int getAttack() {
@@ -45,11 +45,3 @@ public FootWear combine(Gear other) {
     }
 
 
-//    @Override
-//    public Gear combine(Gear other) {
-//        return null;
-//    }
-//        @Override
-//        protected Gear combineInternal(String newName, String newAdj) {
-//            return new FootWear(newName, newAdj);
-//        }

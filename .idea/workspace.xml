@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Added print statements (we missed small detail in project description)">
-      <change afterPath="$PROJECT_DIR$/src/DriverImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ExampleGameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExampleGameRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ExampleGameRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExampleGameRun2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootWear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FootWear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootWearComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GearImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GearImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandGearComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadGear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadGearComparator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +99,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExampleGameRun2" />
-        <item itemvalue="JUnit.DriverTest" />
         <item itemvalue="Application.ExampleGameRun" />
+        <item itemvalue="JUnit.DriverTest" />
         <item itemvalue="JUnit.GearTest" />
         <item itemvalue="JUnit.FighterTest" />
       </list>
@@ -230,5 +234,16 @@
     <MESSAGE value="More error tests" />
     <MESSAGE value="Added print statements (we missed small detail in project description)" />
     <option name="LAST_COMMIT_MESSAGE" value="Added print statements (we missed small detail in project description)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/ExampleGameRun.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

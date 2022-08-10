@@ -21,7 +21,7 @@ public class HeadGear extends GearImpl{
     }
 
     @Override
-    public int getDefense() {
+    public int getDefence() {
         return this.defence;
     }
     @Override

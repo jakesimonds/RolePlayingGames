@@ -114,19 +114,22 @@ public class FighterImpl implements Fighter{
         if(other==this){
             throw new IllegalArgumentException("The fighter cannot fight with themselves");
         }
-        if(this.attack-other.getDefense()> other.getAttack()-this.defense){
-            System.out.println("The battle ends with "+ other.getName() + " having " + (this.attack-other.getDefense()) + " units of damage and " +
-            this.getName() + " having " + (other.getAttack()-this.defense) + " units of damage.");
+
+        int otherDamage = this.attack-other.getDefense();
+        int thisDamage = other.getAttack()-this.defense;
+        if(otherDamage > thisDamage){
+            System.out.println("The battle ends with "+ other.getName() + " having " + otherDamage + " units of damage and " +
+            this.getName() + " having " + thisDamage + " units of damage.");
             System.out.println(this.getName() + " wins.");
             return 1;
-        } else if (this.attack-other.getDefense() == other.getAttack()-this.defense) {
-            System.out.println("The battle ends with "+ other.getName() + " having " + (this.attack-other.getDefense()) + " units of damage and " +
-                    this.getName() + " having " + (other.getAttack()-this.defense) + " units of damage.");
+        } else if (otherDamage == thisDamage) {
+            System.out.println("The battle ends with "+ other.getName() + " having " + otherDamage  + " units of damage and " +
+                    this.getName() + " having " + thisDamage + " units of damage.");
             System.out.println("It was a tie!");
             return 0;
         }else{
-            System.out.println("The battle ends with "+ this.getName() + " having " + (other.getAttack()-this.defense) + " units of damage and " +
-                    other.getName() + " having " + (this.attack-other.getDefense()) + " units of damage.");
+            System.out.println("The battle ends with "+ this.getName() + " having " + thisDamage + " units of damage and " +
+                    other.getName() + " having " + otherDamage + " units of damage.");
             System.out.println(other.getName() + " wins.");
             return -1;
         }
@@ -137,20 +140,6 @@ public class FighterImpl implements Fighter{
         return "Name: " + this.name+"     Attack: "+this.attack+" Defense: "+this.defense;
     }
 
-    //    @Override
-//    public void pickHeadGear(HeadGearImpl headgear) {
-//
-//    }
-//
-//    @Override
-//    public void pickHandGear(HandGearImpl handgear) {
-//
-//    }
-//
-//    @Override
-//    public void pickFootwear(FootwearImpl footwear) {
-//
-//    }
 
 
 }
