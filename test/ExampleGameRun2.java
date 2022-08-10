@@ -26,10 +26,10 @@ public class ExampleGameRun2 {
         gears.add(testHeadGear3);
         gears.add(testHeadGear4);
         gears.add(testHeadGear5);
-        FighterImpl testFighter = new FighterImpl("Joe", 100, 10);
-        FighterImpl testFighter2 = new FighterImpl("Jane", 10, 10);
+        FighterImpl testFighter = new FighterImpl("Joe", 25, 10);
+        FighterImpl testFighter2 = new FighterImpl("Jane", 35, 10);
 
-        Driver driver = new Driver(testFighter,testFighter2,gears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,gears);
 
         driver.start();
 

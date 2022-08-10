@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Added print statements (we missed small detail in project description)">
-      <change afterPath="$PROJECT_DIR$/test/ExampleGameRun2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DriverImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ExampleGameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExampleGameRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ExampleGameRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExampleGameRun2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,10 +95,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExampleGameRun2" />
-        <item itemvalue="JUnit.GearTest" />
         <item itemvalue="JUnit.DriverTest" />
-        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.ExampleGameRun" />
+        <item itemvalue="JUnit.GearTest" />
+        <item itemvalue="JUnit.FighterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660104677202</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added print statements (we missed small detail in project description)">
+      <created>1660154162379</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660154162380</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -41,7 +41,7 @@ public class DriverTest {
         testGears.add(footwear3);
         testGears.add(footwear4);
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
         int result = driver.start();
         //Test fight result
@@ -94,7 +94,7 @@ public class DriverTest {
         testGears.add(footwear3);
         //testGears.add(footwear4);
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
     }
 
@@ -133,7 +133,7 @@ public class DriverTest {
         testGears.add(footwear4);
         testGears.add(footwear5);
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
     }
     @Test(expected=IllegalArgumentException.class)
@@ -170,7 +170,7 @@ public class DriverTest {
         testGears.add(footwear3);
         testGears.add(footwear3);
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
     }
 
@@ -183,7 +183,7 @@ public class DriverTest {
         ArrayList<Gear> testGears = null;
 
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
     }
 
@@ -222,7 +222,7 @@ public class DriverTest {
         testGears.add(footwear3);
         //testGears.add(footwear5);
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
     }
 
@@ -260,7 +260,7 @@ public class DriverTest {
         testGears.add(footwear3);
         testGears.add(footwear4);
 
-        Driver driver = new Driver(testFighter,testFighter,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter,testGears);
 
     }
 
@@ -297,7 +297,7 @@ public class DriverTest {
         testGears.add(headgear10);
 
 
-        Driver driver = new Driver(testFighter,testFighter2,testGears);
+        DriverImpl driver = new DriverImpl(testFighter,testFighter2,testGears);
 
         int result = driver.start();
         //Test fight result
