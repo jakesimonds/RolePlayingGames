@@ -13,7 +13,7 @@ public class Driver {
 
     public Driver(Fighter fighter1, Fighter fighter2, ArrayList<Gear> gears) {
         if(gears==null){
-            throw new IllegalArgumentException("There are not gears");
+            throw new IllegalArgumentException("Gears is null");
         }
         if(gears.size()!=10){
             throw new IllegalArgumentException("There should be 10 gears");
@@ -47,11 +47,15 @@ public class Driver {
     }
 
     public int start() {
-        for(int i =0;i<5;i++){
+        for(int i =1;i<=5;i++){
             takeTurn(this.fighter1);
+            System.out.println("Turn #"+ (i*2 -1) );
             System.out.println(fighter1.toString());
+            System.out.println(fighter1.getName()+" is wearing...");
             takeTurn(this.fighter2);
+            System.out.println("Turn #"+ (i*2) );
             System.out.println(fighter2.toString());
+            System.out.println(fighter2.getName()+" is wearing...");
         }
 
         return fighter1.fight(fighter2);
