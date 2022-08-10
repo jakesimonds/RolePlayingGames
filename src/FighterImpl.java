@@ -115,10 +115,13 @@ public class FighterImpl implements Fighter{
             throw new IllegalArgumentException("The fighter cannot fight with themselves");
         }
         if(this.attack-other.getDefense()> other.getAttack()-this.defense){
+            System.out.println("The winner is: "+ this.getName());
             return 1;
         } else if (this.attack-other.getDefense() == other.getAttack()-this.defense) {
+            System.out.println("It was a tie!");
             return 0;
         }else{
+            System.out.println("The winner is: " + other.getName());
             return -1;
         }
     }

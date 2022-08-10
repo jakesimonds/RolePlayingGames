@@ -49,8 +49,11 @@ public class Driver {
     public int start() {
         for(int i =0;i<5;i++){
             takeTurn(this.fighter1);
+            System.out.println(fighter1.toString());
             takeTurn(this.fighter2);
+            System.out.println(fighter2.toString());
         }
+
         return fighter1.fight(fighter2);
     }
 

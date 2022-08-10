@@ -112,7 +112,7 @@ public class FighterTest {
 
         //unrealistic use of function, but testing its fundamentals to make sure it does what we predict
         assertEquals(-1,testFighter.fight(testFighter2));
-        assertEquals(0,testFighter3.fight(testFighter3));
+        assertEquals(0,testFighter3.fight(testFighter2));
         testFighter3.pickGear(testHeadGear1);
         assertEquals(1,testFighter3.fight(testFighter2));
 

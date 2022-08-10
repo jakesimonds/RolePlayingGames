@@ -264,6 +264,51 @@ public class DriverTest {
 
     }
 
+    @Test
+    public void TestDriverAllHeadgear() {
+        //two fighters
+        FighterImpl testFighter = new FighterImpl("Joe",12,10);
+        FighterImpl testFighter2 = new FighterImpl("Jane",10,10);
+
+        //10 items
+        Gear headgear1 = new HeadGear("a","1",10);
+        Gear headgear2 = new HeadGear("b","2",9);
+        Gear headgear3 = new HeadGear("c","3",8);
+        Gear headgear4 = new HeadGear("d","4",7);
+        Gear headgear5 = new HeadGear("e","5",6);
+        Gear headgear6 = new HeadGear("f","6",5);
+        Gear headgear7 = new HeadGear("g","7",4);
+        Gear headgear8 = new HeadGear("h","8",3);
+        Gear headgear9 = new HeadGear("i","9",2);
+        Gear headgear10 = new HeadGear("j","10",1);
+
+
+        //gears list
+        ArrayList<Gear> testGears = new ArrayList<Gear>();
+        testGears.add(headgear1);
+        testGears.add(headgear2);
+        testGears.add(headgear3);
+        testGears.add(headgear4);
+        testGears.add(headgear5);
+        testGears.add(headgear6);
+        testGears.add(headgear7);
+        testGears.add(headgear8);
+        testGears.add(headgear9);
+        testGears.add(headgear10);
+
+
+        Driver driver = new Driver(testFighter,testFighter2,testGears);
+
+        int result = driver.start();
+        //Test fight result
+        assertEquals("1, 3, 5, 7, 9", testFighter.getHeadGear().getAdj());
+        assertEquals("i", testFighter.getHeadGear().getName());
+        assertEquals("2, 4, 6, 8, 10", testFighter2.getHeadGear().getAdj());
+        assertEquals("j", testFighter2.getHeadGear().getName());
+
+
+    }
+
 
 
 }

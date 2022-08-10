@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="Completed, need test">
+    <list default="true" id="05ccbb48-54f9-4bf9-911a-0176e994cea7" name="Changes" comment="More error tests">
+      <change afterPath="$PROJECT_DIR$/test/ExampleGameRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FighterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FighterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DriverTest">
+  <component name="RunManager" selected="Application.ExampleGameRun">
+    <configuration name="ExampleGameRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExampleGameRun" />
+      <module name="RolePlayingGames" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="RolePlayingGames" />
@@ -60,9 +71,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RolePlayingGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RolePlayingGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GearTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleGameRun" />
         <item itemvalue="JUnit.DriverTest" />
+        <item itemvalue="JUnit.GearTest" />
+        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -132,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659988643747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="More error tests">
+      <created>1660080687323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660080687323</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +203,7 @@
     <MESSAGE value="Need complete pick methods" />
     <MESSAGE value="Need complete pick methods." />
     <MESSAGE value="Completed, need test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed, need test" />
+    <MESSAGE value="More error tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="More error tests" />
   </component>
 </project>
